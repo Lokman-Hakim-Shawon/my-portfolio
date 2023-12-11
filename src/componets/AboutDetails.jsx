@@ -7,7 +7,7 @@ const AboutDetails = () => {
     <img src={img1} className="flex-1 max-w-sm rounded-lg " />
     <div className="flex-1">
       <h1 className="text-5xl font-bold text-center text-blue-500">About Me</h1>
-      <p className="py-6 text-2xl">I am a web developer since 2023. I have completed a course by programming-hero team. I have studied all technologys of web development like HTML, CSS, Tailwind, Javascript, React, Node.js, Express, Mongodb ect.</p>
+      <p className="py-6 lg:text-2xl">I am a web developer since 2023. I have completed a course by programming-hero team. I have studied all technologys of web development like HTML, CSS, Tailwind, Javascript, React, Node.js, Express, Mongodb ect.</p>
       <button className="btn bg-blue-500 text-white">Download My Resume</button>
     </div>
   </div>

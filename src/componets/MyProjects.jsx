@@ -6,14 +6,14 @@ const MyProjects = () => {
     return (
         // text div
         <div>
-            <div className="lg:my-10">
+            <div className="my-5 lg:my-10">
             <hr className="w-1/2 mx-auto border border-blue-300 md:border-2 lg:border-4 rounded-xl"/>
             <h1 className="text-center md:text-2xl lg:text-4xl font-bold md:py-2 lg:py-5 text-blue-500">My Letest Project</h1>
             <hr className="w-1/2 mx-auto border border-blue-300 md:border-2 lg:border-4 rounded-xl"/>
            </div>
 
         {/* letest project div */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-5">
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-5">
             {/* 1st project card */}
         <div className="card  bg-base-100 border border-blue-500">
   <figure className="px-10 pt-10">

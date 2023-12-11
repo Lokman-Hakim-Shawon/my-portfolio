@@ -1,12 +1,12 @@
 
 const Aducation = () => {
     return (
-        <div className="my-5">
+        <div className="my-5  w-full">
             <h1 className=" py-10 text-4xl font-bold underline text-blue-500 text-center">Aducation</h1>
-            <div>
-                <table className="border w-full text-center">
+            <div className="">
+                <table className="w-full text-center">
                     <thead className="">
-                        <tr className="border border-2 border-blue-500">
+                        <tr className=" border-blue-500">
                             <td className="border border-blue-500">Institute Name</td>
                             <td className="border border-blue-500">Examination</td>
                             <td className="border border-blue-500">Group</td>

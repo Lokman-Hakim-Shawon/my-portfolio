@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import img1 from './../assets/images/professional pic.png'
 import { FaLinkedin ,FaFacebookSquare  } from "react-icons/fa";
+
 const Navbar = () => {
     const navlink=<>
         <Link to='/' className="hover:text-green-600 text-blue-500"><li>Home</li></Link>

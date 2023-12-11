@@ -1,7 +1,7 @@
 import cover1 from '../assets/images/cover.jpg'
 const Banner = () => {
     return (
-        <div>
+        <div className='p-0'>
            <div className="carousel w-full">
   <div id="slide1" className="carousel-item relative w-full">
     <img src={cover1} className="w-full" />
