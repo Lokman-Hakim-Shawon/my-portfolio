@@ -1,4 +1,4 @@
-import img1 from '../assets/images/pdf.pdf'
+import img1 from '../assets/images/Lokman Hakim Resume.pdf'
 const Myresume = () => {
     return (
         <div className="w-1/2">
